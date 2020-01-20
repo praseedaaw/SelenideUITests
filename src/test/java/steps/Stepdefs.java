@@ -8,6 +8,11 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.And;
 import org.junit.Test;
 
+/**
+ * This class is the step defenition class which has definition of each step of Gherkin scenario.
+ * Page objects of page classes are created and does actions and assertions in this class
+ */
+
 public class Stepdefs {
 
     private LandingPage landingPage = new LandingPage();

@@ -1,9 +1,12 @@
 package at.pages;
 
 import org.openqa.selenium.By;
-
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.sleep;
+
+/**
+ * This class is the page class for Write Comment page.
+ */
 
 public class WriteCommentPage {
 
@@ -13,6 +16,7 @@ public class WriteCommentPage {
     public void enterComment(){
         $(writAComment).setValue("sample comment");
     }
+
     public ArticlePage clickOnPostComment(){
         $(postComment).click();
         sleep(10000);

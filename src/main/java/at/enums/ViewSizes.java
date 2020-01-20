@@ -2,6 +2,10 @@ package at.enums;
 
 import org.openqa.selenium.Dimension;
 
+/**
+ * This class is the Driver manager class to define WebDriver or Browser related configurations
+ */
+
 public enum ViewSizes {
     DESKTOP(new Dimension(1366,768)),
     TABLET(new Dimension(768,1024)),

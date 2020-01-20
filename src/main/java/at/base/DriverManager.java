@@ -6,6 +6,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
+/**
+ * This class is the Driver manager class to define WebDriver or Browser related configurations
+ */
+
 public class DriverManager {
     public void setupBrowser() {
         WebDriverRunner.clearBrowserCache();

@@ -5,6 +5,10 @@ import org.openqa.selenium.Dimension;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 
+/**
+ * This class is used to store utilities related to port size
+ */
+
 public class ViewPortSizeUtils {
 
     private static final String JS_GET_VIEWPORT_WIDTH = "var width = undefined; if (window.innerWidth) {width = window.innerWidth;} else if (document.documentElement && document.documentElement.scrollWidth) {width = document.documentElement.scrollWidth;} else { var b = document.getElementsByTagName('body')[0]; if (b.scrollWidth) {width = b.scrollWidth;}};return width;";
